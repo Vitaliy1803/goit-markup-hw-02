@@ -1,0 +1,47 @@
+.body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.logo {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.site-nav .link {
+  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #404bbf;
+}
