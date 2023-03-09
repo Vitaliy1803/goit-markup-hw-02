@@ -20,15 +20,15 @@
   --btn-filters-active-text-color: #ffffff;
 }
 
-.body {
+body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   color: #434455;
 }
 /* header */
-.logo {
+.logo.link {
   font-family: "Raleway", sans-serif;
-  font-weight: 800;
+  font-weight:800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -51,6 +51,10 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+
+.auth-nav {
+    font-style: normal;
 }
 
 .auth-nav .link {
