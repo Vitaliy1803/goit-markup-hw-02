@@ -1,7 +1,7 @@
 /* Styles for index.html */
 
 :root {
-  --logo-text-color:#4d5ae5;
+  --logo-text-color: #4d5ae5;
   --logo-text-studio-color: #2e2f42;
   --title-text-color: #2e2f42; /* NAVY BLUE */
   --hero-text-color: #ffffff;
@@ -28,7 +28,7 @@ body {
 /* header */
 .logo.link {
   font-family: "Raleway", sans-serif;
-  font-weight:800;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -38,11 +38,11 @@ body {
 }
 
 .logo-color {
-    color:var(--logo-text-studio-color);
+  color: var(--logo-text-studio-color);
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .link {
@@ -54,7 +54,7 @@ body {
 }
 
 .auth-nav {
-    font-style: normal;
+  font-style: normal;
 }
 
 .auth-nav .link {
@@ -81,6 +81,12 @@ body {
 }
 
 .hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
   color: var(--btn-text-color);
   background-color: var(--btn-backroubd-color);
 }
@@ -90,16 +96,15 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-transform: capitalize;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--title-text-color); /* NAVY BLUE */
 }
 
-
 /* features */
 
-.features .title,
-.portfolio-photo .title {
+.title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -124,7 +129,7 @@ body {
 .section.team {
   background-color: var(--team-backround-color);
 }
-.worker.list{
+.worker.list {
   background-color: var(--team-list-backround-color);
 }
 
@@ -133,12 +138,12 @@ body {
   background-color: var(--hero-backround-color);
 }
 
-.footer .logo {
-  line-height: 1.16;
-}
-
 .footer .description {
   color: var(--footer-description-text-color); /* CORNFLOWER */
+}
+
+.logo-footer {
+    color: #f4f4fd;
 }
 
 /* portfolio.html */
