@@ -1,7 +1,8 @@
 /* Styles for index.html */
 
 :root {
-  --primery-backround-color: #ffffff;
+  --logo-text-color:#4d5ae5;
+  --logo-text-studio-color: #2e2f42;
   --title-text-color: #2e2f42; /* NAVY BLUE */
   --hero-text-color: #ffffff;
   --link-text-active-color: #404bbf;
@@ -22,17 +23,26 @@
 .body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  color: var(--title-text-color);
-  background-color: var(--primery-backround-color);
+  color: #434455;
 }
 /* header */
 .logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  color: var(--logo-text-color);
+}
+
+.logo-color {
+    color:var(--logo-text-studio-color);
+}
+
+.list {
+    list-style: none;
 }
 
 .link {
@@ -81,15 +91,10 @@
   color: var(--title-text-color); /* NAVY BLUE */
 }
 
-/* section 1 */
-
-.section-title.hidden {
-  display: none;
-}
 
 /* features */
 
-.features-list .title,
+.features .title,
 .portfolio-photo .title {
   font-weight: 500;
   font-size: 20px;
@@ -115,7 +120,7 @@
 .section.team {
   background-color: var(--team-backround-color);
 }
-.section .team-list {
+.worker.list{
   background-color: var(--team-list-backround-color);
 }
 
