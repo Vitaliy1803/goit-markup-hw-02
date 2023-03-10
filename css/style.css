@@ -143,22 +143,28 @@ body {
 }
 
 .logo-footer {
-    color: #f4f4fd;
+  color: #f4f4fd;
 }
 
 /* portfolio.html */
 
-.portfolio-filters .btn-filters {
+.btn-filters {
+  font-family: "Roboto", sans-serif;
   background-color: var(--btn-filters-backround-color); /* CORNFLOWER */
   color: var(--btn-filters-text-color);
   font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
-.portfolio-filters .btn-filters:hover,
-.portfolio-filters .btn-filters:focus {
+.btn-filters:hover,
+.btn-filters:focus {
   background-color: var(--btn-filters-active-backround-color);
   color: var(--btn-filters-active-text-color);
 }
-.portfolio-photo .row-list {
+.row.list {
   background-color: var(--team-list-backround-color);
 }
