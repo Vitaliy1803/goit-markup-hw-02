@@ -73,7 +73,6 @@ body {
 }
 
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -154,7 +153,6 @@ body {
   background-color: var(--btn-filters-backround-color); /* CORNFLOWER */
   color: var(--btn-filters-text-color);
   font-weight: 500;
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
