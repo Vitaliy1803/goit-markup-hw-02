@@ -60,6 +60,7 @@ body {
 
 .auth-nav .link {
   color: var(--adress-link-text-color); /* SLATE */
+  font-weight: 400;
 }
 
 .link:hover,
@@ -93,7 +94,6 @@ body {
 
 /* sections */
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
